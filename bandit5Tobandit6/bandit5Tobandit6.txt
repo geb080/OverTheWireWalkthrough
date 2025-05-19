@@ -1,0 +1,7 @@
+bandit5 --> bandit6
+"find . -perm -664" <-- example of find command searching by permissions of the user, group, and other permissions
+
+find . \! -executable <-- this can find files that aren't executables
+
+found flag with "du -ba | grep 1033" <-- du searches for file size,-b option gives sizes as bytes, -a option searches all files (du normally only gives directory size). piped the result into a grep to search the output for the given file size of 1033.
+
